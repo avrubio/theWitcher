@@ -1,4 +1,4 @@
-# Choose Your Own Adventure - Project Completed!
+# Choose Your Own Adventure 
 
 In this project, I have created a Choose-Your-Own-Adventure-style game using JavaScript. The game prompts the player to make different choices and takes them on an exciting journey with multiple destinations and possible outcomes.
 
