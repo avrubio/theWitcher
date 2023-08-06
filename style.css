@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+* {
+  /* background-color: grey; */
+  margin: 0 auto;
+  font-family: "Julius Sans One", sans-serif;
+}
+body {
+  display: block;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.characters {
+  justify-content: center;
+  display: flex;
+}
+
+.geralt {
+  transition: transform 0.2s; /* Animation */
+}
+.geralt:hover {
+  transform: scale(1.5);
+}
+.yennerfer {
+  transition: transform 0.2s; /* Animation */
+}
+.yennefer:hover {
+  transform: scale(1.5);
+}
+
+.logo {
+  margin-top: 100px;
+  display: flex;
+}
+
+#start {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+button {
+  border: solid transparent;
+  /* box-shadow: #1cb0f6 4px; */
+  background-color: silver;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: rgb(69, 68, 68);
+}
+
+.box {
+  background-color: grey;
+  border: black solid 5px;
+  margin-top: 90px;
+  margin: 90px;
+}
